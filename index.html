@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&family=Jost:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="topbar">
+            <div class="social-icons">
+                <a href="#">
+                    <img src="images/facebook.svg" alt="icon">
+                </a>
+                <a href="#">
+                    <img src="images/youtube.svg" alt="icon">
+                </a>
+                <a href="#">
+                    <img src="images/instagram.svg" alt="icon">
+                </a>
+            </div>
+            <p>Free Shipping all across country</p>
+            <div class="links">
+                <a href="#">Help & FAQs</a>
+                <select name="currency" id="currency">
+                    <option value="$">United States (USD $)</option>
+                    <option value="$">United States (USD $)</option>
+                    <option value="$">United States (USD $)</option>
+                </select>
+                <select name="languages" id="languages">
+                    <option value="Eng">English</option>
+                    <option value="urdu">Urdu</option>
+                    <option value="fre">French</option>
+                </select>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrap">
+                    <button class="burger-icon icon0">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="#" class="logo">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <ul class="desk-nav-bar">
+                        <li><a href="#">Shop All</a></li>
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                    <div class="head-icon">
+                        <button class="search"><img src="images/search.svg" alt="search"></button>
+                        <a href="#"><img src="images/cart.svg" alt="cart"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-form">
+                <form action="">
+                    <input type="search" placeholder="Search">
+                </form>
+                <button class="burger-icon active">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="mob-wrapper">
+                <ul class="mob-nav-bar">
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="content">
+                <p>DON'T MISS DAILY FEATURED DEALS</p>
+                <h1>LUNA BEAUTY</h1>
+                <span>To bring your life to the next level</span>
+                <a href="#" class="btn btn-primary">SHOP NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection-s">
+        <div class="container">
+            <div class="collection-s-wrap">
+                <div class="cs-child">
+                    <div class="img-wrap">
+                        <img src="images/p1.png" alt="img">
+                    </div>
+                    <a href="#">
+                        <strong class="title">NEW ARRIVALS</strong>
+                        <span> To bring your life to the next level </span>
+                    </a>
+                </div>
+
+                <div class="cs-child">
+                    <div class="img-wrap">
+                        <img src="images/p3.png" alt="img">
+                    </div>
+                    <a href="#">
+                        <strong class="title">ON SALE</strong>
+                        <span> To bring your life to the next level </span>
+                    </a>
+                </div>
+
+                <div class="cs-child">
+                    <div class="img-wrap">
+                        <img src="images/p2.png" alt="img">
+                    </div>
+                    <a href="#">
+                        <strong class="title">UPCOMING</strong>
+                        <span> To bring your life to the next level </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabs-slider">
+        <div class="container">
+            <div class="tb-wrapper">
+                <div class="tabs">
+                    <ul class="tabs-list">
+                        <li><button data-tab="Fashion">Fashion</button></li>
+                        <li><button data-tab="Furniture">Furniture</button></li>
+                        <li><button class="active" data-tab="Cosmetic">Cosmetic</button></li>
+                        <li><button data-tab="Electronic">Electronic</button></li>
+                        <li><button data-tab="Glasses">Glasses</button></li>
+                        <li><button data-tab="Jewellery">Jewellery</button></li>
+                        <li><button data-tab="Watch">Watch</button></li>
+                    </ul>
+                </div>
+                <div class="tabs-content">
+                    <div id="Fashion" class="t-slider">
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p1.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p2.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p3.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p2.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p1.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p3.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="Furniture" class="t-slider">
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="Cosmetic" class="t-slider active">
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p1.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p2.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p3.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p2.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p1.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p3.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="Glasses" class="t-slider">
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="Jewellery" class="t-slider">
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="Watch" class="t-slider">
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/p1.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/p2.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/p3.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/p1.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/p2.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/p3.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="Electronic" class="t-slider">
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p1.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p2.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p3.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p2.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p1.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <div class="img-wrap">
+                                <a href="#"><img src="images/sli-p3.png" alt="img"></a>
+                            </div>
+                            <a href="#">
+                                <span class="p-name">Lorem Ipsum Text here</span>
+                                <b class="price">$500.00</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="img-txt-slide">
+        <div class="container">
+            <div class="img-txt-s-wrap">
+                <div class="content">
+                    <span>DON’T MISS DAILY FEATURED DEALS</span>
+                    <h2>
+                        LOREM IPSUM TEXT
+                    </h2>
+                    <p>To bring your life to the next levelTo bring your life to the next levelTo bring your life to the
+                        next level</p>
+                    <a href="" class="btn btn-primary">
+                        SHOP NOW
+                    </a>
+                </div>
+                <div class="s-img">
+                    <img src="images/slide-sbb.png" alt="img">
+                </div>
+                <div class="img-txt-slider">
+                    <div class="card">
+                        <div class="img-wrap">
+                            <a href="#"><img src="images/slider-bb.png" alt="img"></a>
+                        </div>
+                        <a href="#">
+                            <span class="p-name">Lorem Ipsum Text here</span>
+                            <b class="price">$500.00</b>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrap">
+                            <a href="#"><img src="images/slider-bb.png" alt="img"></a>
+                        </div>
+                        <a href="#">
+                            <span class="p-name">Lorem Ipsum Text here</span>
+                            <b class="price">$500.00</b>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrap">
+                            <a href="#"><img src="images/slider-bb.png" alt="img"></a>
+                        </div>
+                        <a href="#">
+                            <span class="p-name">Lorem Ipsum Text here</span>
+                            <b class="price">$500.00</b>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="img-with-text">
+        <div class="img-with-text-wrap">
+            <div class="img-wrap"><img src="images/img_w_text.png" alt="img"></div>
+            <div class="content-wrap">
+                <div class="content">
+                    <span>OUR STORIES</span>
+                    <strong class="heading">
+                        LOREM IPSUM TEXT
+                    </strong>
+                    <p>To bring your life to the next levelTo bring your life to the next levelTo bring your life to the
+                        next level</p>
+                    <a href="" class="btn btn-secondry">
+                        About Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection-new">
+        <div class="container">
+            <h2>New Arrivals</h2>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p1.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p2.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p3.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p4.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p5.png" alt="img"></a>
+                        <div class="p-icons-wrap"><span class="discount details-sty">-20%</span>
+                            <button class="wishlist-icon details-sty"><img src="images/wishlist.svg"
+                                    alt="icon"></button>
+                        </div>
+                        <div class="btn-wrap"><button class="btn2 details-sty">Quick View</button><button
+                                class="btn2 details-sty">Add to Cart</button></div>
+
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p8.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p7.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p8.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p2.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <a href="#"><img src="images/products/p1.png" alt="img"></a>
+                    </div>
+                    <a href="#">
+                        <span class="p-name">Lorem Ipsum Text here</span>
+                        <b class="price">$500.00</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shipping-icons">
+        <div class="container">
+            <div class="icons-wrap">
+                <div class="icon-details">
+                    <img src="images/s-icon1.svg" alt="icon">
+                    <strong class="name">Shipping Worldwide</strong>
+                    <p>Special financing and earn rewards</p>
+                </div>
+                <div class="icon-details">
+                    <img src="images/s-icon2.svg" alt="icon">
+                    <strong class="name">14 Days Return</strong>
+                    <p>14-days free return policy</p>
+                </div>
+                <div class="icon-details">
+                    <img src="images/s-icon3.svg" alt="icon">
+                    <strong class="name">Security Payment</strong>
+                    <p>We accept all major credit cards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after-slider">
+        <div class="container">
+            <h2>Cosmatics that really work</h2>
+            <div class="slider-c-section">
+                <div class="slider-wrapper">
+                    <div class="slide">
+                        <div class="slide-img-wrap">
+                            <div class="img-wrap">
+                                <img src="images/before-p.png" alt="img">
+                            </div>
+                            <div class="img-wrap">
+                                <img src="images/after-p.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-img-wrap">
+                            <div class="img-wrap">
+                                <img src="images/before-p.png" alt="img">
+                            </div>
+                            <div class="img-wrap">
+                                <img src="images/after-p.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-img-wrap">
+                            <div class="img-wrap">
+                                <img src="images/before-p.png" alt="img">
+                            </div>
+                            <div class="img-wrap">
+                                <img src="images/after-p.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-img-wrap">
+                            <div class="img-wrap">
+                                <img src="images/before-p.png" alt="img">
+                            </div>
+                            <div class="img-wrap">
+                                <img src="images/after-p.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/arrows-bg.svg" alt="bg" class="arrow-bg">
+            </div>
+        </div>
+        <img src="images/left-i.png" alt="" class="right-s">
+        <img src="images/right-i.png" alt="" class="left-s">
+    </section>
+
+    <section class="blogs">
+        <div class="container">
+            <h2>FROM BLOGS</h2>
+            <div class="blogs-wrapper">
+                <a href="#" class="blog-wrap">
+                    <div class="b-img"><img src="images/blog1.png" alt="img"></div>
+                    <span class="date">JUL 9, 2022</span>
+                    <p>Lorem Ipsum Text here</p>
+                </a>
+                <a href="#" class="blog-wrap">
+                    <div class="b-img"><img src="images/blog2.png" alt="img"></div>
+                    <span class="date">JUL 9, 2022</span>
+                    <p>Lorem Ipsum Text here</p>
+                </a>
+                <a href="#" class="blog-wrap">
+                    <div class="b-img"><img src="images/blog3.png" alt="img"></div>
+                    <span class="date">JUL 9, 2022</span>
+                    <p>Lorem Ipsum Text here</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="insta-posts">
+        <h2>AS SEEN ON INSTAGRAM</h2>
+        <p>FOLLOW: <a href="#" target="_blank">@loremipsum</a></p>
+        <div class="posts-wrapper">
+            <div class="post-img">
+                <img src="images/insta1.png" alt="img">
+            </div>
+            <div class="post-img">
+                <img src="images/insta2.png" alt="img">
+            </div>
+            <div class="post-img">
+                <img src="images/insta3.png" alt="img">
+            </div>
+            <div class="post-img">
+                <img src="images/insta4.png" alt="img">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-nav">
+            <div class="container">
+                <div class="up-footer">
+                    <div class="logo-g">
+                        <a href="#">
+                            <img src="images/logo-f.svg" alt="logo">
+                        </a>
+                    </div>
+                    <ul>
+                        <li><a href="tel:+1 354 453 2345">T : +1 354 453 2345</a></li>
+                        <li><a href="mailto:hello@loremispum.com">E : hello@loremispum.com</a></li>
+
+                    </ul>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ’s</a></li>
+                        <li><a href="#">Delivery & Returns</a></li>
+                        <li><a href="#">Care Guide</a></li>
+
+                    </ul>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Clothes</a></li>
+                        <li><a href="#">Shoes & Accessories</a></li>
+                        <li><a href="#">Underwear</a></li>
+                    </ul>
+                    <div class="sub-social">
+                        <form action="#">
+                            <label for="sub">Get on the list so we can stay in touch</label>
+                            <input type="email" placeholder="Email Address" id="sub">
+                        </form>
+                        <div class="f-social-icons">
+                            <a href="#"><img src="images/fb-f.svg" alt="fb"></a>
+                            <a href="#"><img src="images/insta-f.svg" alt="fb"></a>
+                            <a href="#"><img src="images/you-g.svg" alt="fb"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="container">
+                <div class="bb-wrapper">
+                    <p>© 2022 Luna Copyright. All Rights Reserved - Powered by Shopify</p>
+                    <div class="payemnt-icons"><img src="images/mastercard.svg" alt="icon"><img src="images/visa.svg"
+                            alt="icon"><img src="images/paypal.svg" alt="icon"></div>
+                    <div class="policies">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Shipping Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
